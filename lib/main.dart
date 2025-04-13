@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// 🔷 Sección de imagen superior
+// Sección de imagen superior
 class ImageSection extends StatelessWidget {
   const ImageSection({super.key});
 
@@ -45,7 +45,7 @@ class ImageSection extends StatelessWidget {
   }
 }
 
-// 🔷 Sección de título
+// Sección de título
 class TitleSection extends StatelessWidget {
   const TitleSection({super.key, required this.name, required this.location});
 
@@ -85,7 +85,7 @@ class TitleSection extends StatelessWidget {
   }
 }
 
-// 🔷 Sección de botones
+// Sección de botones
 class ButtonSection extends StatelessWidget {
   const ButtonSection({super.key});
 
@@ -116,7 +116,7 @@ class ButtonSection extends StatelessWidget {
   }
 }
 
-// 🔷 Widget personalizado para cada botón
+// Widget personalizado para cada botón
 class ButtonWithText extends StatelessWidget {
   const ButtonWithText({
     super.key,
@@ -152,7 +152,7 @@ class ButtonWithText extends StatelessWidget {
   }
 }
 
-// 🔷 Sección de texto descriptivo
+// Sección de texto descriptivo
 class TextSection extends StatelessWidget {
   const TextSection({super.key});
 
